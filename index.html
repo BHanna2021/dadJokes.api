@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dad Jokes Told Here</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body class="myBody">
+    <span class="mySpan"><h1 id="header">&#128514;&#128514;&#128514; DAD JOKES - Laugh 'til you cry! &#128514;&#128514;&#128514;</h1></span>
+    <img src="https://cdn.pixabay.com/photo/2016/09/16/13/31/child-1674021_960_720.jpg" alt="...">
+    <div id="keepItSimple" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="7000" id="cardOne">
+                <div class="card-body">
+                    <h2 class="card-title">Have a Laugh</h2>
+                    <p>Click this button to brighten your day.</p>
+                    <p class="card-text"><button id="randomButton"><b>Random Dad Joke</b></button></p>
+                </div>
+            </div>
+            <div class="carousel-item" data-interval="7000" id="cardTwo">
+                <div class="card-body">
+                    <h2 class="card-title">Laughs for Miles!</h2>
+                    <p class="card-text">Enter a Word or just click the button:
+                        <input></input>
+                    </p>
+                    <p class="card-text"><button id="searchButton"><b>Give Me More!</b></Button></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="jokeResults">
+        <p id="randomJoke"></p>
+        <section id="jokeList">
+
+        </section>
+    </div>
+    <script src="api1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>

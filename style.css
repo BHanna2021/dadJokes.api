@@ -1,0 +1,63 @@
+.myBody {
+    background-color: #037ad6;
+    background-image: url("https://www.transparenttextures.com/patterns/food.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+#header {
+    text-align: center;
+    font-family: 'Original Surfer' cursive;
+    font-size: xx-large;
+    background-color: midnightblue;
+    color: oldlace;
+    height: 75px;
+    padding: 10px;
+    margin-bottom: 1%;
+}
+
+img {
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+    border-radius: 45px;
+    margin-left: 20%;
+}
+
+#keepItSimple {
+    display: inline-block;
+    background-color: midnightblue;
+    height: 40%;
+    width: 30%;
+    border-radius: 45px;
+    padding: 1%;
+}
+
+h2 {
+    font-family: 'Original Surger', cursive;
+    font-size: 20px;
+    color: oldlace
+}
+
+p {
+    font-family: 'Original Surger', cursive;
+    font-size: 20px;
+    color: oldlace
+}
+
+.jokeResults {
+    font-family: 'Original Surger', cursive;
+    font-size: 20px;
+    color: oldlace;
+    background-color: midnightblue;
+    text-align: center;
+}
+
+#randomButton {
+    background-color: turquoise;
+    border-radius: 45px;
+}
+
+#searchButton {
+    background-color: turquoise;
+    border-radius: 45px;
+}
