@@ -26,7 +26,7 @@ img {
 #keepItSimple {
     display: inline-block;
     background-color: midnightblue;
-    height: 40%;
+    height: 30%;
     width: 30%;
     border-radius: 45px;
     padding: 1%;
@@ -42,6 +42,11 @@ p {
     font-family: 'Original Surger', cursive;
     font-size: 20px;
     color: oldlace
+}
+
+h6 {
+    font-family: 'Original Surger', cursive;
+    color:oldlace;
 }
 
 .jokeResults {
@@ -60,4 +65,5 @@ p {
 #searchButton {
     background-color: turquoise;
     border-radius: 45px;
+    height: 43px;
 }
